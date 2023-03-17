@@ -2,8 +2,8 @@
 
 ## Segement 1 Selected Topic - [insert]
 
-* Purpose
-* Question(s)
+* Purpose - 
+* Question(s) - 
 
 ### Technology Used
 * Languages:
