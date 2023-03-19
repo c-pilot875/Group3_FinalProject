@@ -22,6 +22,10 @@ Description: Conference information
 
 Source: Work in progress (Does it make sense to compile the conference data myself from multiple sources?)
 
+Possible Source #1: https://www.ncaa.com/standings/football/fbs
+
+Possible source #2: https://collegefootballdata.com/exporter/teams
+
 ## Data Exploration and Processing
 Description
 1.
