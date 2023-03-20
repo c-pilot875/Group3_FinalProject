@@ -35,14 +35,15 @@ Description
 ## Analytic Dashboard
 The dashboard will contain various visulizations depicting datapoint outputs showing relationships and compairisons. 
 
-[Insert image example]
+![Tabler example](Tabler_exc.png)
 
 Using `Javascript` and `HTML` to develop a UI Webb app, templates will be researched to identify appropriate charting and interactivity.
 
 ### Visualization Questions
-1. Which school has the highest number of players being drafted in NFL?
-2. What position type or player type is most represented at the NFL Combine?
-3. Do drafted and undrafted players perform differently on performance tests?
+1. Which school has the highest number of players being drafted in NFL? (Bar)
+2. What position type or player type is most represented at the NFL Combine? (Pie)
+3. Do drafted and undrafted players perform differently on performance tests? (Multi Bar)
+4. Where are the drafted players from? (Heat Map)
 
 
 
