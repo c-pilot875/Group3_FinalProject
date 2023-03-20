@@ -35,7 +35,7 @@ Description
 ## Analytic Dashboard
 The dashboard will contain various visulizations depicting datapoint outputs showing relationships and compairisons. 
 
-![Tabler example](Tabler_exc.png)
+![Tabler_exc](https://user-images.githubusercontent.com/115188500/226380819-bb8019fd-0127-4827-a52e-8cdf3c7dd1b8.png)
 
 Using `Javascript` and `HTML` to develop a UI Webb app, templates will be researched to identify appropriate charting and interactivity.
 
