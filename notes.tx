@@ -1,13 +1,16 @@
-03/16
+Updated 3/21
 Dataset:
 NFL Combine - Performance Data (2009 - 2019)
 
-Purpose - Can we predict if a player who attends the NFL Combine will be drafted 
+Purpose (Main Question) - Can we predict if a player who attends the NFL Combine will be drafted 
 or undrafted with X% accuracy (75%)?
 ML - Randomforest model - to see the importance of the different features
 
-* How do different combine stats effect wheather a player is drafted or undrafted. 
-Stratify by position - Offensive line, offensive linemen?
+## Additional Questions
+1. How do the differnt position groups differ from each other? Use Random Forest model
+2. Can we find any meaningful cluster groups using Unsupervised learning?
+3. What position type or player types is most represented at the NFL Combine? [Pie Chart visualization]
+4. What are the average stats of offence vs defence? [Stacked bar chart]
 
 > exploritory (Dylan)
 ? Drafted vs undrafted by school***
@@ -30,15 +33,15 @@ Find supplimental dataset for colleges
 Attributes
 
 > final dashboard (Caroline)
-* College conferance player drafted - bar charts/ Clusters, heatmap
-* Position type with stats - bar charts /Clusters
-Research more
+* Position type Pie Chart
+* Average stats offence vs deffence Bar chart
+* Cluster graph
+* Tablu Stories Wrap up
 
 
-> create branches for each development
+> Deliverables for Segment 1: 
 * commit 1 - Modefy template basic, add modified files
-* commit 2 - Add descriptions/detail of thought Processing
+* commit 2 - Add descriptions/detail of project process
 * commit 3 - Add final decisions or options/examples
-* commit 4 - push to main branch (Monday meet to review)
-
+* commit 4 - push to main branch (Tuesday Review and make final commits) 
 
