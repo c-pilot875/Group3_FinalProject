@@ -4,16 +4,16 @@ Year INT
 Player VARCHAR
 Age INT
 School VARCHAR FK >- Teams_by_Conference.School
-Height FLOAT
-Weight FLOAT
-Sprint_40yd FLAOT
-Vertical_Jump FLOAT
+Height NUMERIC
+Weight NUMERIC
+Sprint_40yd NUMERIC
+Vertical_Jump NUMERIC
 Bench_Press_Reps INT
-Broad_Jump FLOAT
-Agility_3cone FLOAT
-Shuttle FLOAT
+Broad_Jump NUMERIC
+Agility_3cone NUMERIC
+Shuttle NUMERIC
 Drafted..tm.rnd.yr. VARCHAR
-BMI FLOAT
+BMI NUMERIC
 Player_Type VARCHAR
 Position_Type VARCHAR
 Position VARCHAR
