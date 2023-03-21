@@ -17,7 +17,7 @@ Description: NFL.csv. This dataset includes player performance data at the NFL C
 Source: https://www.kaggle.com/datasets/redlineracer/nfl-combine-performance-data-2009-2019
 
 #### Data Source #2 
-Description: Teams_by_Conference.csv. This dataset includes the conference that each school in the NFL Combine dataset belongs to.
+Description: School_by_Conference.csv. This dataset includes the conference that each school in the NFL Combine dataset belongs to.
 
 Sources:
 1.	https://collegefootballdata.com/exporter/teams
@@ -38,10 +38,12 @@ Description
 1.	Using AWS, Google Colab, and PostgreSQL/pgAdmin, we will create a database containing two tables
 2.	Tables:
     1.	NFL
-    2.	Teams_by_Conference
+    2.	School_by_Conference
 
 [pic of database mock]
 
-![ERD_Original](https://user-images.githubusercontent.com/115508658/226633643-7181618b-e681-4b86-b1e8-e1df52f451f3.png)
+![ERD_Original](https://user-images.githubusercontent.com/115508658/226696066-2c008f44-ad74-4e56-aaae-80f30174a4b6.png)
+
+
 
 
