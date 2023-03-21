@@ -1,3 +1,7 @@
+﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+
+
 CREATE TABLE "NFL" (
     "Year" INT,
     "Player" VARCHAR,
@@ -19,14 +23,14 @@ CREATE TABLE "NFL" (
     "Drafted" VARCHAR
 );
 
-CREATE TABLE "Teams_by_Conference" (
-    "School" VARCHAR   NOT NULL,
-    "Conference" VARCHAR   NOT NULL,
-    CONSTRAINT "pk_Teams_by_Conference" PRIMARY KEY (
+CREATE TABLE "School_by_Conference" (
+    "School" VARCHAR,
+    "Conference" VARCHAR,
+    CONSTRAINT "pk_School_by_Conference" PRIMARY KEY (
         "School"
      )
 );
 
 ALTER TABLE "NFL" ADD CONSTRAINT "fk_NFL_School" FOREIGN KEY("School")
-REFERENCES "Teams_by_Conference" ("School");
+REFERENCES "School_by_Conference" ("School");
 

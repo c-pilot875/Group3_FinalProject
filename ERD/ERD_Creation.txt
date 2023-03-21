@@ -3,7 +3,7 @@ NFL
 Year INT
 Player VARCHAR
 Age INT
-School VARCHAR FK >- Teams_by_Conference.School
+School VARCHAR FK >- School_by_Conference.School
 Height NUMERIC
 Weight NUMERIC
 Sprint_40yd NUMERIC
@@ -20,7 +20,7 @@ Position VARCHAR
 Drafted VARCHAR
 
 
-Teams_by_Conference
+School_by_Conference
 -
 School VARCHAR PK
 Conference VARCHAR
