@@ -7,10 +7,9 @@
 * Question(s) - How do different combine stats effect wheather a player is drafted or undrafted?
 
 ### Technology Used
-* Languages: `Python`, `Javascript`, `HTML`
+* Languages: `Python`
 * Technologies: `Postgres`, `AWS`, `PostgresLite`
-* Tools: Machine Learning models from `SciKitLearn` and `Imbalanced` learn,
-  Dashabord templates possibly from `Tabler`, etc.
+* Tools: Machine Learning models from `SciKitLearn` and `Imbalanced` learn, Dashabord templates possibly from `Tablau Stories`, etc.
 
 ### Data Source
 The dataset contains stats and information form the NFL Combine (2009 to 2019), inclduing the results from sports performance tests and draft outcomes.
@@ -33,18 +32,14 @@ Description
 [pic of database mock]
 
 ## Analytic Dashboard
-The dashboard will contain various visulizations depicting datapoint outputs showing relationships and compairisons. 
+Using a data visualizatin tool such as Tablau Stories, Ddataframes will be collected from the exploritory development and implamneted into User Interactive charts within Stories. Custom images, cover pages, and colors will be chosen by the team.
+* What position type or player types is most represented at the NFL Combine? [Pie Chart visualization of DF]
+* What are the average stats of offence vs defence? [Stacked bar chart of DF]
+* What relationships do the Clusters containe from the Machine Learning model? [Cluster or DF]
 
-![Tabler_exc](https://user-images.githubusercontent.com/115188500/226380819-bb8019fd-0127-4827-a52e-8cdf3c7dd1b8.png)
+![Tablau example](Screen%20Shot%202023-03-21%20at%202.41.58%20PM.png)
 
-Using `Javascript` and `HTML` to develop a UI Webb app, templates will be researched to identify appropriate charting and interactivity.
-
-### Visualization Questions
-1. Which school has the highest number of players being drafted in NFL? (Bar)
-2. What position type or player type is most represented at the NFL Combine? (Pie)
-3. Do drafted and undrafted players perform differently on performance tests? (Multi Bar)
-4. Where are the drafted players from? (Heat Map)
-
+The `Tablau Story` dashboard will be linked to the final ReadMe for the presentation.
 
 
 
