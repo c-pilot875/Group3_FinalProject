@@ -37,7 +37,10 @@ Using a data visualizatin tool such as Tablau Stories, Ddataframes will be colle
 * What are the average stats of offence vs defence? [Stacked bar chart of DF]
 * What relationships do the Clusters containe from the Machine Learning model? [Cluster or DF]
 
-![Tablau example](Screen%20Shot%202023-03-21%20at%202.41.58%20PM.png)
+Tablau example
+
+![Screen Shot 2023-03-21 at 2 41 58 PM](https://user-images.githubusercontent.com/115188500/226714697-5e3f860c-03ff-442f-946b-77ef4e57bb98.png)
+
 
 The `Tablau Story` dashboard will be linked to the final ReadMe for the presentation.
 
