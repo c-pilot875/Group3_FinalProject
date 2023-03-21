@@ -42,8 +42,7 @@ Description
 
 [pic of database mock]
 
-![ERD_Original](https://user-images.githubusercontent.com/115508658/226696066-2c008f44-ad74-4e56-aaae-80f30174a4b6.png)
-
+![ERD](https://user-images.githubusercontent.com/115508658/226765889-1abcb910-3bde-4231-a4d8-5aeed7af49c7.png)
 
 
 
