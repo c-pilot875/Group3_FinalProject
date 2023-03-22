@@ -1,4 +1,4 @@
--- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 CREATE TABLE NFL (
@@ -14,7 +14,10 @@ CREATE TABLE NFL (
     Broad_Jump NUMERIC,
     Agility_3cone NUMERIC,
     Shuttle NUMERIC,
-    Drafted_tm_rnd_yr VARCHAR,
+    Team VARCHAR,
+    Round VARCHAR,
+    Overall_Pick VARCHAR,
+    Draft_Year INT,
     BMI NUMERIC,
     Player_Type VARCHAR,
     Position_Type VARCHAR,

@@ -12,13 +12,15 @@ Bench_Press_Reps INT
 Broad_Jump NUMERIC
 Agility_3cone NUMERIC
 Shuttle NUMERIC
-Drafted..tm.rnd.yr. VARCHAR
+Team VARCHAR
+Round VARCHAR
+Overall_Pick VARCHAR
+Draft_Year INT
 BMI NUMERIC
 Player_Type VARCHAR
 Position_Type VARCHAR
 Position VARCHAR
 Drafted VARCHAR
-
 
 School_by_Conference
 -
