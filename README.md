@@ -39,6 +39,7 @@ or undrafted with X% accuracy (75%)? To do this we will use a Random Forest Mode
 - Sprint_40yd (40 yard sprint in s)
 - Vertical_Jump (cm)
 - Bench_Press_Reps (Maximum bench press repititions achieved while lifting 102.1 kg weight)
+- Broad Jump (cm)
 - Agility_3cone (Three-cone agility test time (s))
 - Shuttle (Lateral shuttle time (s))
 - BMI (Body mass index (kg/m^2)
