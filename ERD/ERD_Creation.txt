@@ -1,0 +1,28 @@
+NFL
+-
+Year INT
+Player VARCHAR
+Age INT
+School VARCHAR FK >- School_by_Conference.School
+Height NUMERIC
+Weight NUMERIC
+Sprint_40yd NUMERIC
+Vertical_Jump NUMERIC
+Bench_Press_Reps INT
+Broad_Jump NUMERIC
+Agility_3cone NUMERIC
+Shuttle NUMERIC
+Team VARCHAR
+Round VARCHAR
+Overall_Pick VARCHAR
+Draft_Year INT
+BMI NUMERIC
+Player_Type VARCHAR
+Position_Type VARCHAR
+Position VARCHAR
+Drafted VARCHAR
+
+School_by_Conference
+-
+School VARCHAR PK
+Conference VARCHAR
