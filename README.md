@@ -15,28 +15,23 @@
 The dataset contains stats and information form the NFL Combine (2009 to 2019), inclduing the results from sports performance tests and draft outcomes.
 Source: [NFL Combine Draft 2009 - 2019](https://www.kaggle.com/datasets/redlineracer/nfl-combine-performance-data-2009-2019)
 
-## Data Exploration and Processing
-Description
-1. -
-2.
-3.
-4.
-[pic of final df]
+## Analytic Dashboard Using Tablau Stories
+Using the data visualizatin tool Tablau Public Stories, the NFL Draft dataframes will be collected from the exploritory analysis and implamented into User Interactive charts within Stories. Dataframe images, cover pages containing the questions, and colors will be chosen by the team. Presentaiton flow is listed in order below:
 
-## Database
-Description
-1. -
-2.
-3.
-4.
-[pic of database mock]
+### Presentation Set Up:
+1. Cover Page
+2. Purpose of the project and Source
+3. Secondary Questions
+4. Tools for exploring the dataset [sample dataframes]
+5. Database build [ERD]
+6. Machine Learning Models
+7. Results [UI charts, Cluster, Machine Learning Accuracy]
+8. Summary [Conclusion, Team Credits]
 
-## Analytic Dashboard
-Using a data visualizatin tool such as Tablau Stories, Ddataframes will be collected from the exploritory development and implamneted into User Interactive charts within Stories. Custom images, cover pages, and colors will be chosen by the team.
-* What position type or player types is most represented at the NFL Combine? [Pie Chart visualization of DF]
+### Charts
+* What position type or player type is most represented at the NFL Combine? [Pie chart visualization of DF]
 * What are the average stats of offence vs defence? [Stacked bar chart of DF]
 * What relationships do the Clusters containe from the Machine Learning model? [Cluster or DF]
-
 Tablau example
 
 ![Screen Shot 2023-03-21 at 2 41 58 PM](https://user-images.githubusercontent.com/115188500/226714697-5e3f860c-03ff-442f-946b-77ef4e57bb98.png)
