@@ -16,6 +16,11 @@ Questions:
     * What are the average statistics by player type (offense, defense, and special teams)?
 
 ### Technology Used
+
+* Languages: Python
+* Technologies: 
+* Tools: Jupyter Notebook
+
 * Languages: Python 3.7
 * Technologies: 
 * Tools: Machine Learning models from SciKitLearn and Imbalanced learn
@@ -23,6 +28,16 @@ Questions:
 ### Data Source
 Description
 Source: https://www.kaggle.com/datasets/redlineracer/nfl-combine-performance-data-2009-2019
+
+## Data Exploration and Processing
+Description
+1. Creating a dataframe that show all the combine attendees and the school they attended to show the number of schools who had players attend the combine and also show which schools had the most attendants.
+2. There are seven different position groupings in the dataframe. Creating a dataframe for each position to show event stats for those drafted and another data frame for those undrafted will allow the ability to show how those who were drafted preformed to those undrafted in each event.
+3. Being able to see each player, their event statistics, and where they were drafted, may shed insight to see if better event stats relates to being drafted higher instead of just team need. 
+4. Creating a dataframe to show each teams picks and how many picks they had
+[pic of final df] - DF to show players who were drafted, what school they attened, combine stats, team and draft position
+
+=======
 * Languages: Python
 * Technologies: AWS, PostgreSQL/pgAdmin, Excel, Tableau
 * Tools: Pandas, machine learning tools
@@ -49,6 +64,7 @@ Description
 1. The Schools_by_Conference dataset was compiled by finding a list of unique schools from our primary NFL data source, then using multiple sources to find the conference each school belongs to.
 2. NFL.csv has duplicated schools that should be cleaned up for consistency. Western Michigan/West. Michigan and LSU/Louisiana St both exist in the primary dataset. The Pandas Replace function should be used to replace LSU with Louisiana St and West. Michigan with Western Michigan, so when we look at drafted vs. undrafted by school, these are not grouped separately.
 3. When processing our NFL data for our machine learning model, we will exclude Year, Player, Age, School, Drafted..tm.rnd.yr., Player_Type, Position_Type, Positions, and Drafted from our features. Drafted is the target.
+
 
 ## Database
 Description
