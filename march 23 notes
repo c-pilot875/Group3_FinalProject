@@ -1,0 +1,70 @@
+Updated 3/23
+Dataset:
+NFL Combine - Performance Data (2009 - 2019)
+
+> Segment 2 Requirements
+- Machine Learning model , including a confusion matrix and accuracy score
+- Database that stores data for the project with at least two tables or collections
+- Slides presentation [Google Slides]
+* - Cover Page
+* - Purpose /Source
+* - Questions
+* - Tools explore /clean data [sample dataframes]
+* - Database build
+* - Machine Learning models
+* - Results [UI graphs, Cluster, Machine Learning Accuracy]
+* - Summary [Conclusion, Team Credits]
+
+> Commits
+1. Updated Machine Learning model
+2. Database Build
+3. Slides Update
+
+> Additional
+* Possibly add Lat & Long for Heatmap
+
+Project Overview:
+
+Purpose (Main Question) - Can we predict if a player who attends the NFL Combine will be drafted 
+or undrafted with X% accuracy (75%)?
+ML - Randomforest model - to see the importance of the different features
+
+## Additional Questions
+1. How do the differnt position groups differ from each other? Use Random Forest model
+2. Can we find any meaningful cluster groups using Unsupervised learning?
+3. What position type or player types is most represented at the NFL Combine? [Pie Chart visualization]
+4. What are the average stats of offence vs defence? [Stacked bar chart]
+
+> exploritory (Dylan)
+? Drafted vs undrafted by school***
+? 60% drafted, 30% undrafted
+? Looking at team, what position would most likley take compaired to other teams
+? What number pick 1st or 204th pic
+? Position type - corrilation with stats
+
+> machine learning mock up (Ben)
+Drafted vs undrafted - classification model
+Onehotencoding
+Clusters of Performance - number pick
+Randomforest model
+
+> database (Lauren)
+Postgres, AWS, SQLite
+Find supplimental dataset for colleges
+1 drafted vs undrafted by conference - secondary viz
+2 colleges and the conference they belong to
+Attributes
+
+> final dashboard (Caroline)
+* Position type Pie Chart
+* Average stats offence vs deffence Bar chart
+* Cluster graph
+* Tablu Stories Wrap up
+* - Cover Page
+* - Purpose /Source
+* - Questions
+* - Tools explore /clean data [sample dataframes]
+* - Database build [ED]
+* - Machine Learning models
+* - Results [UI graphs, Cluster, Machine Learning Accuracy]
+* - Summary [Conclusion, Team Credits]
