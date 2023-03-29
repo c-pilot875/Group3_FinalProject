@@ -1,12 +1,14 @@
 Updated March 28
 
-* Cleaned dataset for exploritory analysis
-* Cleaned dataset for DB
-* Cleaned dataset for machine learning
+TO DO:
+* Update Slides (draft)
+* Update ReadMe with progress/research/future plans
+* Combine relevent files under specific folders within own branches - will merge to main branch later
+* Add relevent images to specific folders
 
-* Identify cleaned csv file for Tableau (nfl_cleaneup_for_db?)
+* Identify cleaned csv file for Tableau (nfl_cleaneup_for_db?) - Done
 - Saved DF?
-- dropped nulls
+- dropped nulls?
 
 * Position Types /Player Types most represented at NFL Combine
 * Average Stats by player type
@@ -17,16 +19,16 @@ Updated March 28
 - Averages and sums 
 
 * Database
-- Access
+- Access - Done
 
 * Machine model
 - Accuracy scores
-- Predictions for each row
+- Predictions for each row?
 - Principal components
 
 
 * Dashboard
-- Filtering/ Interactive
+- Filtering/ Interactive (Position Type, Drafted vs undrafted)
 - Story? What players get drafted?
 - Goal?
 - Message?
