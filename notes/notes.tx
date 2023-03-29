@@ -1,0 +1,44 @@
+03/16
+Dataset:
+NFL Combine - Performance Data (2009 - 2019)
+
+Purpose - Can we predict if a player who attends the NFL Combine will be drafted 
+or undrafted with X% accuracy (75%)?
+ML - Randomforest model - to see the importance of the different features
+
+* How do different combine stats effect wheather a player is drafted or undrafted. 
+Stratify by position - Offensive line, offensive linemen?
+
+> exploritory (Dylan)
+? Drafted vs undrafted by school***
+? 60% drafted, 30% undrafted
+? Looking at team, what position would most likley take compaired to other teams
+? What number pick 1st or 204th pic
+? Position type - corrilation with stats
+
+> machine learning mock up (Ben)
+Drafted vs undrafted - classification model
+Onehotencoding
+Clusters of Performance - number pick
+Randomforest model
+
+> database (Lauren)
+Postgres, AWS, SQLite
+Find supplimental dataset for colleges
+1 drafted vs undrafted by conference - secondary viz
+2 colleges and the conference they belong to
+Attributes
+
+> final dashboard (Caroline)
+* College conferance player drafted - bar charts/ Clusters, heatmap
+* Position type with stats - bar charts /Clusters
+Research more
+
+
+> create branches for each development
+* commit 1 - Modefy template basic, add modified files
+* commit 2 - Add descriptions/detail of thought Processing
+* commit 3 - Add final decisions or options/examples
+* commit 4 - push to main branch (Monday meet to review)
+
+

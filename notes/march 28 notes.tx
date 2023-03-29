@@ -1,0 +1,34 @@
+Updated March 28
+
+* Cleaned dataset for exploritory analysis
+* Cleaned dataset for DB
+* Cleaned dataset for machine learning
+
+* Identify cleaned csv file for Tableau (nfl_cleaneup_for_db?)
+- Saved DF?
+- dropped nulls
+
+* Position Types /Player Types most represented at NFL Combine
+* Average Stats by player type
+
+
+* Exploration analysis
+- Steps to clean, drop,
+- Averages and sums 
+
+* Database
+- Access
+
+* Machine model
+- Accuracy scores
+- Predictions for each row
+- Principal components
+
+
+* Dashboard
+- Filtering/ Interactive
+- Story? What players get drafted?
+- Goal?
+- Message?
+
+position type and class
