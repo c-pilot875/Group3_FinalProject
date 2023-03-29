@@ -32,9 +32,18 @@ Source: https://www.kaggle.com/datasets/redlineracer/nfl-combine-performance-dat
 ## Data Exploration and Processing
 Description
 1. Creating a dataframe that show all the combine attendees and the school they attended to show the number of schools who had players attend the combine and also show which schools had the most attendants.
+<img width="337" alt="image" src="https://user-images.githubusercontent.com/109708202/228628551-befb1c23-ebf3-472d-ba0d-8606014df109.png">
+
+
 2. There are seven different position groupings in the dataframe. Creating a dataframe for each position to show event stats for those drafted and another data frame for those undrafted will allow the ability to show how those who were drafted preformed to those undrafted in each event.
+![image](https://user-images.githubusercontent.com/109708202/228626321-393196fe-bc6a-4ece-bf6c-6d941911fa57.png)
+
 3. Being able to see each player, their event statistics, and where they were drafted, may shed insight to see if better event stats relates to being drafted higher instead of just team need. 
+
+
 4. Create dataframes of a few teams to see how many draft picks they had from 2009 - 2019
+
+
 5. View players physical characteristics such as height, weight, BMI, and age in relation to what overall pick they were taken.
 ![image](https://user-images.githubusercontent.com/109708202/228624918-4283d121-0b3b-4f00-8d32-377015ad411e.png)
 
