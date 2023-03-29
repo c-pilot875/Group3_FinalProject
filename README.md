@@ -3,6 +3,10 @@
 * Google Slides - presentation
 * Tableau Public 2022.4.0 - dashboard
 
+### Links
+![Google Slides presentation]
+![Tableau Dashboard]
+
 ### Presentation Set Up:
 1. Cover Page
 2. Purpose of the project and Source
