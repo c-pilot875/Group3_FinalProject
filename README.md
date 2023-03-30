@@ -36,7 +36,7 @@ Since our dataset is already pretty low on datapoints, we don't expect to see ve
 Second, we will use k-means clustering on the same set of features to see if we can find any meaningful clusters in our data. Some possible meaning we hope to see in these clusters include position group, draft pick (higher draft picks clustered together), or college conference (players from better conferences clustered together). The meaning will be determined by creating different variations of visualizations with various potential meanings on the axes.
 
 ### Results
-From our neural
+From our neural network, we achieved the following results:
 <p align="center">
 <img src="https://github.com/c-pilot875/Group3_FinalProject/blob/Ben_Branch/Machine_Learning/Images/Neural_Network_Results.png" width="733" height="152">
 </p>
