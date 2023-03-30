@@ -1,25 +1,13 @@
 # Group3_FinalProject
 
-
 ## Selected Topic – NFL Combine Performance (2009-2019)
 
-The purpose of this project is to analyze data from the NFL Combine dataset using tools to identify correlations between performance datapoints and to predict if a football player who attends the NFL Combine will be drafted or undrafted with 75% accuracy.
-
-Questions:
-* Primary:
-    * Using a machine learning model, can we predict if a player who attends the NFL Combine will be drafted or undrafted with 75% accuracy?
-
-* Secondary:
-    * Using the Random Forest model, can we see how position groups differ?
-    * Can we find any meaningful cluster groups using unsupervised machine learning?
-    * What position types and player types are most represented at the NFL combine?
-    * What are the average statistics by player type (offense, defense, and special teams)?
+We chose this topic because we all have an interest in sports and thought it would be a fun real life example to use to apply what we’ve learned about machine learning and data analytics.
 
 ### Technology Used
-
-* Languages: Python, Pandas, PySpark
-* Technologies: AWS, PostgreSQL/pgAdmin, Excel, Tableau
-* Tools: Jupyter Notebook, Tableau Public, Machine Learning models from SciKitLearn and Imbalanced learn
+* Languages: Python 3.7, Pandas 1.4.4, PySpark 3.2.3
+* Technologies: AWS, PostgreSQL 11.19, pgAdmin 4 6.19, Excel
+* Tools: Jupyter Notebook, Google Colab, Tableau Public 2022.4, Machine Learning models from SciKit-learn 1.0.2 and Imbalanced-learn 0.10.1
 
 ### Data Sources
 
@@ -53,7 +41,7 @@ Description
 
 ## Database
 Description of Database build
-1. Using AWS, Google Colab, and PostgreSQL/pgAdmin, we will create a database containing two tables.
+1. Using AWS S3 and RDS, Google Colab, PySpark, and PostgreSQL/pgAdmin, we created a database containing two tables.
 2. Tables:
     1. NFL
     2. School_by_Conference
@@ -61,6 +49,26 @@ Description of Database build
 4. Using the NFL and School_by_Conference tables in pgAdmin, preliminary analysis can be performed to find the number of each player type and position type represented at the NFL Combine, the average stats of each player type and position type, and the number of drafted and undrafted players by conference.
 
 ![ERD](https://user-images.githubusercontent.com/115508658/227053221-45f483d2-1b8d-439c-9fc3-8427fdcd5c69.png)
+
+Tables in Database:
+
+![Tables_pdAdmin](https://user-images.githubusercontent.com/115508658/228365098-5e22877e-890e-42dd-bdeb-6283101ea1fd.png)
+
+Player types represented at Combine:
+
+![player_type_represented](https://user-images.githubusercontent.com/115508658/228369565-d9d9a56e-dd49-4201-b114-cc68295aee0e.png)
+
+Position types represented at Combine:
+
+![position_type_represented](https://user-images.githubusercontent.com/115508658/228986061-029a240e-cf68-4739-a4a1-6a47158ce049.png)
+
+Power five conferences, drafted vs. undrafted:
+
+![power_five_drafted_v_undrafted](https://user-images.githubusercontent.com/115508658/228369592-1a862d8f-3b43-4a43-b8e5-b0c5016f7fd5.png)
+
+Average statistics by postition type:
+
+![position_type_avg_stats](https://user-images.githubusercontent.com/115508658/228917527-cee0147c-3580-4ae8-9110-ade7eab05801.png)
 
 ## Machine Learning Mockup
 ### Overview
@@ -96,23 +104,5 @@ Second, we will use k-means clustering on the same set of features to see if we 
 ## Analytic Dashboard Using Tableau Stories
 Using the data visualizatin tool Tableau Public Stories, the NFL Draft dataframes will be collected from the exploritory analysis and implamented into User Interactive charts within Stories. Dataframe images, cover pages containing the questions, and colors will be chosen by the team. Presentaiton flow is listed in order below:
 
-### Presentation Set Up:
-1. Cover Page
-2. Purpose of the project and Source
-3. Secondary Questions
-4. Tools for exploring the dataset [sample dataframes]
-5. Database build [ERD]
-6. Machine Learning Models
-7. Results [UI charts, Cluster, Machine Learning Accuracy]
-8. Summary [Conclusion, Team Credits]
-
-### Charts
-* What position type or player type is most represented at the NFL Combine? [Pie chart visualization of DF]
-* What are the average stats of offence vs defence? [Stacked bar chart of DF]
-* What relationships do the Clusters containe from the Machine Learning model? [Cluster or DF]
-Tablau example
-
-![Screen Shot 2023-03-21 at 2 41 58 PM](https://user-images.githubusercontent.com/115188500/226714697-5e3f860c-03ff-442f-946b-77ef4e57bb98.png)
-
-
+=======
 The `Tableau Story` dashboard will be linked to the final ReadMe for the presentation.
