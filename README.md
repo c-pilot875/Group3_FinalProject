@@ -36,6 +36,7 @@ Since our dataset is already pretty low on datapoints, we don't expect to see ve
 Second, we will use k-means clustering on the same set of features to see if we can find any meaningful clusters in our data. Some possible meaning we hope to see in these clusters include position group, draft pick (higher draft picks clustered together), or college conference (players from better conferences clustered together). The meaning will be determined by creating different variations of visualizations with various potential meanings on the axes.
 
 ### Results
+#### Neural Network
 From our neural network, we achieved the following results:
 <p align="center">
 <img src="https://github.com/c-pilot875/Group3_FinalProject/blob/Ben_Branch/Machine_Learning/Images/Neural_Network_Results.png" width="733" height="152">
@@ -47,3 +48,20 @@ We can also break this down by position type, as seen below:
 </p>
 
 From this we can see that our model does not do a good job of predicting backs and receivers. This makes some sense as running backs, wide receivers, tight ends, and quarterbacks all fit into this category, but all typically have different body types and athletic fortes (e.g. a wide receiver may be very quick and fast, but not very strong, whereas a tight end, who also has to block, may need to have a focus on strength).
+
+#### Position Type Differences
+
+#### Clustering
+Our unsupervised learning resulted in three clusters. We can view the results of our clustering through a few different lenses. First, we can look at how different position types are clustered, as shown below:
+<p align="center">
+<img src="https://github.com/c-pilot875/Group3_FinalProject/blob/Ben_Branch/Machine_Learning/Images/Positions_Clustered.png" width="642" height="295">
+</p>
+
+From this chart we can see that the clusters fairly nicely split the position types as follows: Cluster 0 contains offensive linemen and defensive linemen, Cluster 1 contains mostly backs, receivers, and defensive backs, and Cluster 2 contains the remaining backs and receivers, defensive linemen, and linebackers.
+
+We can also view our clustering through the draft pick number that each player was taken. These results are shown below:
+<p align="center">
+<img src="https://github.com/c-pilot875/Group3_FinalProject/blob/Ben_Branch/Machine_Learning/Images/Draft_Picks_Clustered.png" width="602" height="300">
+</p>
+
+This gives a less clear view of the clustering, as there does not seem to be any clear pattern between clusters or in a single cluester. We can thus conclude that our data is clustered more through position type than it is through draft pick.
