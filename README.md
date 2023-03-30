@@ -4,8 +4,10 @@
 * Tableau Public 2022.4.0 - dashboard
 
 ### Links
-![Google Slides presentation]
-![Tableau Dashboard]
+# [Google Slides Draft Presentation](https://docs.google.com/presentation/d/1bHN3MyXMYsiwbRi6HGW2KUMyx565eJ8_NZdsxkAlCpQ/edit?usp=sharing)
+
+[Draft Tableau Dashboard]
+
 
 ### Presentation Set Up:
 1. Cover Page
