@@ -5,6 +5,25 @@
 We chose this topic because we all have an interest in sports and thought it would be a fun real life example to use to apply what we’ve learned about machine learning and data analytics.
 
 ### Technology Used
+
+
+* Languages: Python 3.7, Pandas
+* Technologies: Anaconda, Jupyter Notebook
+* Tools: Jupyter Notebook, Excel
+
+* Languages: Python 3.7
+* Technologies: 
+* Tools: Machine Learning models from SciKitLearn and Imbalanced learn
+
+### Data Source
+Description
+Source: https://www.kaggle.com/datasets/redlineracer/nfl-combine-performance-data-2009-2019
+
+## Data Exploration and Processing
+Description
+1. Creating a dataframe that show all the combine attendees and the school they attended to show the number of schools who had players attend the combine and also show which schools had the most attendants.
+<img width="337" alt="image" src="https://user-images.githubusercontent.com/109708202/228628551-befb1c23-ebf3-472d-ba0d-8606014df109.png">
+=======
 * Languages: Python 3.7, Pandas 1.4.4, PySpark 3.2.3
 * Technologies: AWS, PostgreSQL 11.19, pgAdmin 4 6.19, Excel
 * Tools: Jupyter Notebook, Google Colab, Tableau Public 2022.4, Machine Learning models from SciKit-learn 1.0.2 and Imbalanced-learn 0.10.1
@@ -16,9 +35,15 @@ Description: NFL.csv. This dataset includes player performance data at the NFL C
 
 Source: https://www.kaggle.com/datasets/redlineracer/nfl-combine-performance-data-2009-2019
 
-#### Data Source #2 
-Description: Schools_by_Conference.csv. This dataset includes the conference that each school in the NFL Combine dataset belongs to.
 
+
+
+2. There are seven different position groupings in the dataframe. Creating a dataframe for each position to show event stats for those drafted and another data frame for those undrafted will allow the ability to show how those who were drafted preformed to those undrafted in each event.
+![image](https://user-images.githubusercontent.com/109708202/228626321-393196fe-bc6a-4ece-bf6c-6d941911fa57.png)
+
+3. Being able to see each player, their event statistics, and where they were drafted, may shed insight to see if better event stats relates to being drafted higher instead of just team need. 
+
+=======
 Sources:
 1. https://collegefootballdata.com/exporter/teams
 2. https://www.ncaa.com/standings/football/fbs
@@ -48,8 +73,16 @@ Description of Database build
 3. The NFL table does not have a primary key, as there is not a unique identifier in the dataset (e.g. there are two players named Chris Jones). The School field in the School_by_Conference table is the primary key and can be used to join to the NFL table (where School is the foreign key).
 4. Using the NFL and School_by_Conference tables in pgAdmin, preliminary analysis can be performed to find the number of each player type and position type represented at the NFL Combine, the average stats of each player type and position type, and the number of drafted and undrafted players by conference.
 
-![ERD](https://user-images.githubusercontent.com/115508658/227053221-45f483d2-1b8d-439c-9fc3-8427fdcd5c69.png)
 
+4. Create dataframes of a few teams to see how many draft picks they had from 2009 - 2019
+
+
+
+5. View players physical characteristics such as height, weight, BMI, and age in relation to what overall pick they were taken.
+![image](https://user-images.githubusercontent.com/109708202/228624918-4283d121-0b3b-4f00-8d32-377015ad411e.png)
+
+
+=======
 Tables in Database:
 
 ![Tables_pdAdmin](https://user-images.githubusercontent.com/115508658/228365098-5e22877e-890e-42dd-bdeb-6283101ea1fd.png)
@@ -104,5 +137,6 @@ Second, we will use k-means clustering on the same set of features to see if we 
 ## Analytic Dashboard Using Tableau Stories
 Using the data visualizatin tool Tableau Public Stories, the NFL Draft dataframes will be collected from the exploritory analysis and implamented into User Interactive charts within Stories. Dataframe images, cover pages containing the questions, and colors will be chosen by the team. Presentaiton flow is listed in order below:
 
-=======
+
 The `Tableau Story` dashboard will be linked to the final ReadMe for the presentation.
+
