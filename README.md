@@ -16,7 +16,7 @@ or undrafted with X% accuracy (75%)? To do this we use the following features:
 These features will all be used to predict the classification target variable of whether a player is drafted or not.
 
 ### Model Choice
-A neural network model with 2 hidden layers (the first with 10 neurons and the second with 31 neurons), which used the 'tanh' activation function was chosen as it performed the best of many models tried by the keras-tuner optimizer. This optimizer looked at models with anywhere from 0 to 5 hidden layers, and with each hidden layer having anywhere from 1 to 31 nodes.
+A neural network model with 2 hidden layers (the first with 10 neurons and the second with 31 neurons, and both with the 'tanh' activation function) was chosen as it performed the best of many models tried by the keras-tuner optimizer. This optimizer looked at models with anywhere from 0 to 5 hidden layers, and with each hidden layer having anywhere from 1 to 31 nodes.
 
 Other models were unable to provide an accuracy above the baseline of 68%, which is chosen as a baseline, because 68% of players are drafted, so we want a model that does better than saying "Yes" on each player. These models include:
 - Simple logistic regression
