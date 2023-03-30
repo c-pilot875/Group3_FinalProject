@@ -17,9 +17,13 @@ Tables in Database:
 
 ![Tables_pdAdmin](https://user-images.githubusercontent.com/115508658/228365098-5e22877e-890e-42dd-bdeb-6283101ea1fd.png)
 
-Player types represented at combine:
+Player types represented at Combine:
 
 ![player_type_represented](https://user-images.githubusercontent.com/115508658/228369565-d9d9a56e-dd49-4201-b114-cc68295aee0e.png)
+
+Position types represented at Combine:
+
+![position_type_represented](https://user-images.githubusercontent.com/115508658/228986061-029a240e-cf68-4739-a4a1-6a47158ce049.png)
 
 Power five conferences, drafted vs. undrafted:
 
