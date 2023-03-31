@@ -3,6 +3,9 @@
 
 ## Selected Topic – NFL Combine Performance (2009-2019)
 
+### Links
+# [Google Slides Draft Presentation](https://docs.google.com/presentation/d/1bHN3MyXMYsiwbRi6HGW2KUMyx565eJ8_NZdsxkAlCpQ/edit?usp=sharing)
+
 The purpose of this project is to analyze data from the NFL Combine dataset using tools to identify correlations between performance datapoints and to predict if a football player who attends the NFL Combine will be drafted or undrafted with 75% accuracy.
 
 We chose this topic because we all have an interest in sports and thought it would be a fun real life example to use to apply what we’ve learned about machine learning and data analytics.
@@ -166,6 +169,8 @@ This gives a less clear view of the clustering, as there does not seem to be any
 ## Analytic Dashboard Using Tableau Stories
 Using the data visualizatin tool Tableau Public Stories, the NFL Draft dataframes will be collected from the exploritory analysis and implamented into User Interactive charts within Stories. Dataframe images, cover pages containing the questions, and colors will be chosen by the team. Presentaiton flow is listed in order below:
 
+[Draft Tableau Dashboard]
+
 ### Presentation Set Up:
 1. Cover Page
 2. Purpose of the project and Source
@@ -173,17 +178,22 @@ Using the data visualizatin tool Tableau Public Stories, the NFL Draft dataframe
 4. Tools for exploring the dataset [sample dataframes]
 5. Database build [ERD]
 6. Machine Learning Models
-7. Results [UI charts, Cluster, Machine Learning Accuracy]
-8. Summary [Conclusion, Team Credits]
+7. Dashboard buid
+8. Results [UI charts, Cluster, Machine Learning Accuracy]
+9. Summary [Conclusion, Team Credits]
+
+## Analytic Dashboard Using Tableau Public
+Using the data visualizatin tool Tablau Public, the NFL_Clean_Up.csv file will be uploaded for dashbaord creation. [update] User Interactive charts within Tableau. A single dashboard will combine all charts with an interactivty component. Any additional images relevent to exploritory findinds, database tables, and machine models will be added to the presentation slides unless there is a way to add those images to the dashboard.
 
 ### Charts
 * What position type or player type is most represented at the NFL Combine? [Pie chart visualization of DF]
 * What are the average stats of offence vs defence? [Stacked bar chart of DF]
-* What relationships do the Clusters containe from the Machine Learning model? [Cluster or DF]
-Tablau example
+* What relationships do the Clusters containe from the Machine Learning model? [Cluster of DF]
 
-![Screen Shot 2023-03-21 at 2 41 58 PM](https://user-images.githubusercontent.com/115188500/226714697-5e3f860c-03ff-442f-946b-77ef4e57bb98.png)
+### Tableau Dashboard
+Trial Dashboard findings
+* Player and Position type seem to display the most complete charts, however the differences in values are minimal. Will try to activate the filter function for Undrafted and Drafted dimensions as the main UI.
+* Still researching how to display a cluster chart from the machine model
 
-
-The `Tableau Story` dashboard will be linked to the final ReadMe for the presentation.
+<img width="851" alt="Screen Shot 2023-03-28 at 3 44 50 PM" src="https://user-images.githubusercontent.com/115188500/228394551-02dc77b7-093b-47a4-91e0-69854eeb666b.png">
 
