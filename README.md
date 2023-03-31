@@ -5,6 +5,8 @@
 
 The purpose of this project is to analyze data from the NFL Combine dataset using tools to identify correlations between performance datapoints and to predict if a football player who attends the NFL Combine will be drafted or undrafted with 75% accuracy.
 
+We chose this topic because we all have an interest in sports and thought it would be a fun real life example to use to apply what we’ve learned about machine learning and data analytics.
+
 Questions:
 * Primary:
     * Using a machine learning model, can we predict if a player who attends the NFL Combine will be drafted or undrafted with 75% accuracy?
@@ -17,9 +19,9 @@ Questions:
 
 ### Technology Used
 
-* Languages: Python, Pandas, PySpark
-* Technologies: AWS, PostgreSQL/pgAdmin, Excel, Tableau
-* Tools: Jupyter Notebook, Tableau Public, Machine Learning models from SciKitLearn and Imbalanced learn
+* Languages: Python 3.7, Pandas 1.4.4, PySpark 3.2.3
+* Technologies: AWS, PostgreSQL 11.19, pgAdmin 4 6.19, Excel
+* Tools: Jupyter Notebook, Google Colab, Tableau Public 2022.4, Machine Learning models from SciKit-learn 1.0.2 and Imbalanced-learn 0.10.1
 
 ### Data Sources
 
@@ -53,7 +55,7 @@ Description
 
 ## Database
 Description of Database build
-1. Using AWS, Google Colab, and PostgreSQL/pgAdmin, we will create a database containing two tables.
+1. Using AWS S3 and RDS, Google Colab, PySpark, and PostgreSQL/pgAdmin, we created a database containing two tables.
 2. Tables:
     1. NFL
     2. School_by_Conference
@@ -61,6 +63,26 @@ Description of Database build
 4. Using the NFL and School_by_Conference tables in pgAdmin, preliminary analysis can be performed to find the number of each player type and position type represented at the NFL Combine, the average stats of each player type and position type, and the number of drafted and undrafted players by conference.
 
 ![ERD](https://user-images.githubusercontent.com/115508658/227053221-45f483d2-1b8d-439c-9fc3-8427fdcd5c69.png)
+
+Tables in Database:
+
+![Tables_pdAdmin](https://user-images.githubusercontent.com/115508658/228365098-5e22877e-890e-42dd-bdeb-6283101ea1fd.png)
+
+Player types represented at Combine:
+
+![player_type_represented](https://user-images.githubusercontent.com/115508658/228369565-d9d9a56e-dd49-4201-b114-cc68295aee0e.png)
+
+Position types represented at Combine:
+
+![position_type_represented](https://user-images.githubusercontent.com/115508658/228986061-029a240e-cf68-4739-a4a1-6a47158ce049.png)
+
+Power five conferences, drafted vs. undrafted:
+
+![power_five_drafted_v_undrafted](https://user-images.githubusercontent.com/115508658/228369592-1a862d8f-3b43-4a43-b8e5-b0c5016f7fd5.png)
+
+Average statistics by postition type:
+
+![position_type_avg_stats](https://user-images.githubusercontent.com/115508658/228917527-cee0147c-3580-4ae8-9110-ade7eab05801.png)
 
 ## Machine Learning Mockup
 ### Overview
