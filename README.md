@@ -190,10 +190,13 @@ Using the data visualizatin tool Tablau Public, the NFL_Clean_Up.csv file will b
 * What are the average stats of offence vs defence? [Stacked bar chart of DF]
 * What relationships do the Clusters containe from the Machine Learning model? [Cluster of DF]
 
-### Tableau Dashboard
+## Tableau Dashboard
 Trial Dashboard findings
+
+## [Tableau Draft Dashboard](https://public.tableau.com/views/Group3FinalProjectDraft/RunningBackvsDefensiveLinemenStats?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
 * Player and Position type seem to display the most complete charts, however the differences in values are minimal. Will try to activate the filter function for Undrafted and Drafted dimensions as the main UI.
-* Still researching how to display a cluster chart from the machine model
+* Will use chart images from machine learning model to display the class clusters
 
 <img width="851" alt="Screen Shot 2023-03-28 at 3 44 50 PM" src="https://user-images.githubusercontent.com/115188500/228394551-02dc77b7-093b-47a4-91e0-69854eeb666b.png">
 
