@@ -1,0 +1,36 @@
+Updated March 28
+
+TO DO:
+* Update Slides (draft)
+* Update ReadMe with progress/research/future plans
+* Combine relevent files under specific folders within own branches - will merge to main branch later
+* Add relevent images to specific folders
+
+* Identify cleaned csv file for Tableau (nfl_cleaneup_for_db?) - Done
+- Saved DF?
+- dropped nulls?
+
+* Position Types /Player Types most represented at NFL Combine
+* Average Stats by player type
+
+
+* Exploration analysis
+- Steps to clean, drop,
+- Averages and sums 
+
+* Database
+- Access - Done
+
+* Machine model
+- Accuracy scores
+- Predictions for each row?
+- Principal components
+
+
+* Dashboard
+- Filtering/ Interactive (Position Type, Drafted vs undrafted)
+- Story? What players get drafted?
+- Goal?
+- Message?
+
+position type and class

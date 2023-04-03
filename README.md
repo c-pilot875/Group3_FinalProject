@@ -1,31 +1,27 @@
-## Machine Learning
-=======
 # Group3_FinalProject
+
 
 ## Selected Topic – NFL Combine Performance (2009-2019)
 
+### Links
+# [Google Slides Draft Presentation](https://docs.google.com/presentation/d/1bHN3MyXMYsiwbRi6HGW2KUMyx565eJ8_NZdsxkAlCpQ/edit?usp=sharing)
+
+The purpose of this project is to analyze data from the NFL Combine dataset using tools to identify correlations between performance datapoints and to predict if a football player who attends the NFL Combine will be drafted or undrafted with 75% accuracy.
+
 We chose this topic because we all have an interest in sports and thought it would be a fun real life example to use to apply what we’ve learned about machine learning and data analytics.
+
+Questions:
+* Primary:
+    * Using a machine learning model, can we predict if a player who attends the NFL Combine will be drafted or undrafted with 75% accuracy?
+
+* Secondary:
+    * Using the Random Forest model, can we see how position groups differ?
+    * Can we find any meaningful cluster groups using unsupervised machine learning?
+    * What position types and player types are most represented at the NFL combine?
+    * What are the average statistics by player type (offense, defense, and special teams)?
 
 ### Technology Used
 
-
-* Languages: Python 3.7, Pandas
-* Technologies: Anaconda, Jupyter Notebook
-* Tools: Jupyter Notebook, Excel
-
-* Languages: Python 3.7
-* Technologies: 
-* Tools: Machine Learning models from SciKitLearn and Imbalanced learn
-
-### Data Source
-Description
-Source: https://www.kaggle.com/datasets/redlineracer/nfl-combine-performance-data-2009-2019
-
-## Data Exploration and Processing
-Description
-1. Creating a dataframe that show all the combine attendees and the school they attended to show the number of schools who had players attend the combine and also show which schools had the most attendants.
-<img width="337" alt="image" src="https://user-images.githubusercontent.com/109708202/228628551-befb1c23-ebf3-472d-ba0d-8606014df109.png">
-=======
 * Languages: Python 3.7, Pandas 1.4.4, PySpark 3.2.3
 * Technologies: AWS, PostgreSQL 11.19, pgAdmin 4 6.19, Excel
 * Tools: Jupyter Notebook, Google Colab, Tableau Public 2022.4, Machine Learning models from SciKit-learn 1.0.2 and Imbalanced-learn 0.10.1
@@ -37,15 +33,9 @@ Description: NFL.csv. This dataset includes player performance data at the NFL C
 
 Source: https://www.kaggle.com/datasets/redlineracer/nfl-combine-performance-data-2009-2019
 
+#### Data Source #2 
+Description: Schools_by_Conference.csv. This dataset includes the conference that each school in the NFL Combine dataset belongs to.
 
-
-
-2. There are seven different position groupings in the dataframe. Creating a dataframe for each position to show event stats for those drafted and another data frame for those undrafted will allow the ability to show how those who were drafted preformed to those undrafted in each event.
-![image](https://user-images.githubusercontent.com/109708202/228626321-393196fe-bc6a-4ece-bf6c-6d941911fa57.png)
-
-3. Being able to see each player, their event statistics, and where they were drafted, may shed insight to see if better event stats relates to being drafted higher instead of just team need. 
-
-=======
 Sources:
 1. https://collegefootballdata.com/exporter/teams
 2. https://www.ncaa.com/standings/football/fbs
@@ -56,13 +46,23 @@ Sources:
 ## Data Exploration and Processing
 Description
 1. Creating a dataframe that show all the combine attendees and the school they attended to show the number of schools who had players attend the combine and also show which schools had the most attendants.
+<img width="337" alt="image" src="https://user-images.githubusercontent.com/109708202/228628551-befb1c23-ebf3-472d-ba0d-8606014df109.png">
+
 2. There are seven different position groupings in the dataframe. Creating a dataframe for each position to show event stats for those drafted and another data frame for those undrafted will allow the ability to show how those who were drafted preformed to those undrafted in each event.
+![image](https://user-images.githubusercontent.com/109708202/228626321-393196fe-bc6a-4ece-bf6c-6d941911fa57.png)
+
 3. Being able to see each player, their event statistics, and where they were drafted, may shed insight to see if better event stats relates to being drafted higher instead of just team need. 
+
 4. Creating a dataframe to show each teams picks and how many picks they had
 
-5. The Schools_by_Conference dataset was compiled by finding a list of unique schools from our primary NFL data source, then using multiple sources to find the conference each school belongs to.
-6. NFL.csv has duplicated schools that should be cleaned up for consistency. Western Michigan/West. Michigan and LSU/Louisiana St both exist in the primary dataset. The Pandas Replace function should be used to replace LSU with Louisiana St and West. Michigan with Western Michigan, so when we look at drafted vs. undrafted by school, these are not grouped separately.
-7. When processing our NFL data for our machine learning model, we will exclude Year, Player, Age, School, Drafted..tm.rnd.yr., Player_Type, Position_Type, Positions, and Drafted from our features. Drafted is the target.
+5. View players physical characteristics such as height, weight, BMI, and age in relation to what overall pick they were taken.
+![image](https://user-images.githubusercontent.com/109708202/228624918-4283d121-0b3b-4f00-8d32-377015ad411e.png)
+
+6. The Schools_by_Conference dataset was compiled by finding a list of unique schools from our primary NFL data source, then using multiple sources to find the conference each school belongs to.
+
+7. NFL.csv has duplicated schools that should be cleaned up for consistency. Western Michigan/West. Michigan and LSU/Louisiana St both exist in the primary dataset. The Pandas Replace function should be used to replace LSU with Louisiana St and West. Michigan with Western Michigan, so when we look at drafted vs. undrafted by school, these are not grouped separately.
+
+8. When processing our NFL data for our machine learning model, we will exclude Year, Player, Age, School, Drafted..tm.rnd.yr., Player_Type, Position_Type, Positions, and Drafted from our features. Drafted is the target.
 
 ![image](https://user-images.githubusercontent.com/109708202/227393219-d50f512e-7e31-4d9f-9cdc-7db59204d141.png) - DF to show players who were drafted, what school they attened, combine stats, team and draft position
 
@@ -75,16 +75,8 @@ Description of Database build
 3. The NFL table does not have a primary key, as there is not a unique identifier in the dataset (e.g. there are two players named Chris Jones). The School field in the School_by_Conference table is the primary key and can be used to join to the NFL table (where School is the foreign key).
 4. Using the NFL and School_by_Conference tables in pgAdmin, preliminary analysis can be performed to find the number of each player type and position type represented at the NFL Combine, the average stats of each player type and position type, and the number of drafted and undrafted players by conference.
 
+![ERD](https://user-images.githubusercontent.com/115508658/227053221-45f483d2-1b8d-439c-9fc3-8427fdcd5c69.png)
 
-4. Create dataframes of a few teams to see how many draft picks they had from 2009 - 2019
-
-
-
-5. View players physical characteristics such as height, weight, BMI, and age in relation to what overall pick they were taken.
-![image](https://user-images.githubusercontent.com/109708202/228624918-4283d121-0b3b-4f00-8d32-377015ad411e.png)
-
-
-=======
 Tables in Database:
 
 ![Tables_pdAdmin](https://user-images.githubusercontent.com/115508658/228365098-5e22877e-890e-42dd-bdeb-6283101ea1fd.png)
@@ -105,7 +97,7 @@ Average statistics by postition type:
 
 ![position_type_avg_stats](https://user-images.githubusercontent.com/115508658/228917527-cee0147c-3580-4ae8-9110-ade7eab05801.png)
 
-## Machine Learning Mockup
+## Machine Learning
 ### Overview
 Machine Learning is used to answer the main question of this analysis: Can we predict if a player who attends the NFL Combine will be drafted 
 or undrafted with X% accuracy (75%)? To do this we use the following features:
@@ -173,3 +165,35 @@ We can also view our clustering through the draft pick number that each player w
 </p>
 
 This gives a less clear view of the clustering, as there does not seem to be any clear pattern between clusters or in a single cluester. We can thus conclude that our data is clustered more through position type than it is through draft pick.
+
+## Analytic Dashboard Using Tableau Stories
+Using the data visualizatin tool Tableau Public Stories, the NFL Draft dataframes will be collected from the exploritory analysis and implamented into User Interactive charts within Stories. Dataframe images, cover pages containing the questions, and colors will be chosen by the team. Presentaiton flow is listed in order below:
+
+[Draft Tableau Dashboard]
+
+### Presentation Set Up:
+1. Cover Page
+2. Purpose of the project and Source
+3. Secondary Questions
+4. Tools for exploring the dataset [sample dataframes]
+5. Database build [ERD]
+6. Machine Learning Models
+7. Dashboard buid
+8. Results [UI charts, Cluster, Machine Learning Accuracy]
+9. Summary [Conclusion, Team Credits]
+
+## Analytic Dashboard Using Tableau Public
+Using the data visualizatin tool Tablau Public, the NFL_Clean_Up.csv file will be uploaded for dashbaord creation. [update] User Interactive charts within Tableau. A single dashboard will combine all charts with an interactivty component. Any additional images relevent to exploritory findinds, database tables, and machine models will be added to the presentation slides unless there is a way to add those images to the dashboard.
+
+### Charts
+* What position type or player type is most represented at the NFL Combine? [Pie chart visualization of DF]
+* What are the average stats of offence vs defence? [Stacked bar chart of DF]
+* What relationships do the Clusters containe from the Machine Learning model? [Cluster of DF]
+
+### Tableau Dashboard
+Trial Dashboard findings
+* Player and Position type seem to display the most complete charts, however the differences in values are minimal. Will try to activate the filter function for Undrafted and Drafted dimensions as the main UI.
+* Still researching how to display a cluster chart from the machine model
+
+<img width="851" alt="Screen Shot 2023-03-28 at 3 44 50 PM" src="https://user-images.githubusercontent.com/115188500/228394551-02dc77b7-093b-47a4-91e0-69854eeb666b.png">
+
