@@ -182,8 +182,7 @@ Using the data visualizatin tool `Tablau Public`, the `NFL_Clean_Up.csv` file wa
 
 ### Initial Secondary Questions
 * What position type or player type is most represented at the NFL Combine?
-* What are the average stats of offence vs defence? [Stacked bar chart of DF]
-* What relationships do the Clusters containe from the Machine Learning model? [Cluster of DF]
+* What are the average performance statistics of the different position types?
 
 ## Visualization Dashboard
 
