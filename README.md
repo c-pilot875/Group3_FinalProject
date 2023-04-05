@@ -148,8 +148,6 @@ We can also break this down by position type, as seen below:
 
 From this we can see that our model does not do a good job of predicting backs and receivers. This makes some sense as running backs, wide receivers, tight ends, and quarterbacks all fit into this category, but all typically have different body types and athletic fortes (e.g. a wide receiver may be very quick and fast, but not very strong, whereas a tight end, who also has to block, may need to have a focus on strength).
 
-#### Position Type Differences
-
 #### Clustering
 Our unsupervised learning resulted in three clusters. We can view the results of our clustering through a few different lenses. First, we can look at how different position types are clustered, as shown below:
 <p align="center">
@@ -165,6 +163,20 @@ We can also view our clustering through the draft pick number that each player w
 </p>
 
 This gives a less clear view of the clustering, as there does not seem to be any clear pattern between clusters or in a single cluester. We can thus conclude that our data is clustered more through position type than it is through draft pick.
+
+#### Position Type Differences
+With these groups being clustered, we were able to create random forest models for each cluster. With these we used the feature_importance functionality of the random forest model to determine which features were most important for each cluster of players. This is particularly helpful, because, as shown above, the clusters are mainly built off of position types. This, then allows us, to determine which skills or drills are most important for a player depending on their position type. The results are shown below:
+<p align="center">
+<img src="https://github.com/c-pilot875/Group3_FinalProject/blob/Ben_Branch/Machine_Learning/Images/Cluster_0_Importances.png" width="656" height="246">
+</p>
+<p align="center">
+<img src="https://github.com/c-pilot875/Group3_FinalProject/blob/Ben_Branch/Machine_Learning/Images/Cluster_1_Importances.png" width="656" height="246">
+</p>
+<p align="center">
+<img src="https://github.com/c-pilot875/Group3_FinalProject/blob/Ben_Branch/Machine_Learning/Images/Cluster_2_Importances.png" width="656" height="246">
+</p>
+
+From these graphs we can see that the 40 yard dash is the most important feature for classes 0 and 2, but not quite as much for class 1 (running backs and linebackers). We can also see that, in general, skills that highlight attributes that are often associated with positions in a class often are not high up on the importance list (e.g. bench press reps are fairly low on the list for offensive and defensive linemen). This may be because all players at the combine are good at skills that are associated with their position, but being strong at other skills is what seperates the elite prospects from the very good. Finally, we can see that height is the lowest on the list for all three classes by a decent margin. This might signify that height has little to no impact on the future draft status of players and could potentially be left off of future models.
 
 ## Analytic Dashboard Using Tableau Stories
 Using the data visualizatin tool Tableau Public Stories, the NFL Draft dataframes will be collected from the exploritory analysis and implamented into User Interactive charts within Stories. Dataframe images, cover pages containing the questions, and colors will be chosen by the team. Presentaiton flow is listed in order below:
