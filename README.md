@@ -75,6 +75,7 @@ Description of Database build
 
 
 4. Create dataframes of a few teams to see how many draft picks they had from 2009 - 2019
+![image](https://user-images.githubusercontent.com/109708202/230175928-b5dfc9c7-6a98-4cf0-8eb2-3c7070f868f7.png)
 
 
 
