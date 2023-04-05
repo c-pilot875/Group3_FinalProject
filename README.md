@@ -71,7 +71,9 @@ Description of Database build
     1. NFL
     2. School_by_Conference
 3. The NFL table does not have a primary key, as there is not a unique identifier in the dataset (e.g. there are two players named Chris Jones). The School field in the School_by_Conference table is the primary key and can be used to join to the NFL table (where School is the foreign key).
+
 4. Using the NFL and School_by_Conference tables in pgAdmin, preliminary analysis can be performed to find the number of each player type and position type represented at the NFL Combine, the average stats of each player type and position type, and the number of drafted and undrafted players by conference.
+![image](https://user-images.githubusercontent.com/109708202/230176532-3fcafe93-7d75-4155-a57e-58b40b11c3a5.png)
 
 
 4. Create dataframes of a few teams to see how many draft picks they had from 2009 - 2019
