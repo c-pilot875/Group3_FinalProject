@@ -55,6 +55,8 @@ Description
 3. Being able to see each player, their event statistics, and where they were drafted, may shed insight to see if better event stats relates to being drafted higher instead of just team need. 
 
 4. Creating a dataframe to show each teams picks and how many picks they had
+![image](https://user-images.githubusercontent.com/109708202/230502132-eb253b88-2f35-498e-88c2-3dcf64ed24d8.png)
+
 
 5. View players physical characteristics such as height, weight, BMI, and age in relation to what overall pick they were taken.
 ![image](https://user-images.githubusercontent.com/109708202/228624918-4283d121-0b3b-4f00-8d32-377015ad411e.png)
@@ -62,10 +64,15 @@ Description
 6. The Schools_by_Conference dataset was compiled by finding a list of unique schools from our primary NFL data source, then using multiple sources to find the conference each school belongs to.
 
 7. NFL.csv has duplicated schools that should be cleaned up for consistency. Western Michigan/West. Michigan and LSU/Louisiana St both exist in the primary dataset. The Pandas Replace function should be used to replace LSU with Louisiana St and West. Michigan with Western Michigan, so when we look at drafted vs. undrafted by school, these are not grouped separately.
+![image](https://user-images.githubusercontent.com/109708202/230502192-e8ef58c0-aa17-46ce-b486-9cf7b2e4ec49.png)
+
 
 8. When processing our NFL data for our machine learning model, we will exclude Year, Player, Age, School, Drafted..tm.rnd.yr., Player_Type, Position_Type, Positions, and Drafted from our features. Drafted is the target.
+![image](https://user-images.githubusercontent.com/109708202/230502250-638163b5-3b37-4ea6-ba08-389145a1ac2c.png)
 
-![image](https://user-images.githubusercontent.com/109708202/227393219-d50f512e-7e31-4d9f-9cdc-7db59204d141.png) - DF to show players who were drafted, what school they attened, combine stats, team and draft position
+
+![image](https://user-images.githubusercontent.com/109708202/227393219-d50f512e-7e31-4d9f-9cdc-7db59204d141.png) 
+- DF to show players who were drafted, what school they attened, combine stats, team and draft position
 
 ## Database
 Description of Database build
