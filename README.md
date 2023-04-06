@@ -210,6 +210,7 @@ Using the data visualizatin tool `Tablau Public`, the `NFL_Clean_Up.csv` file wa
 * A pie chart was generated from the `Drafted Player Type (Offense vs Defense)` to determine percentage of each represented at the Combine. Offensive players were most represented with 50.40% while Defensive players made up 48%. Special players made up only 1.6%
 * The vertical bar chart shows a comparison of the `Power Five Conferences Drafted vs Undrafted` player pick count and percentage. Hovering over each bar will indicate the specific data points for each Power Conference. The results showed that the SEC had more drafted players at 490 while the Big 12 had the least at 207.
 
-![Tableau Dashboard](Dashboard_images/Dashboard_final.png)
+![Tableau Dashboard]<img width="1218" alt="Dashboard_final" src="https://user-images.githubusercontent.com/115188500/230478707-c5e1cd6a-3474-49f9-83b7-46c504d1f0be.png">
+
 
 
