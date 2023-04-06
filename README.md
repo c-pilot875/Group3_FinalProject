@@ -5,7 +5,7 @@
 
 ### Links
 # [Google Slides Presentation](https://docs.google.com/presentation/d/1bHN3MyXMYsiwbRi6HGW2KUMyx565eJ8_NZdsxkAlCpQ/edit?usp=sharing)
-# [Tableau Dashboard Link](https://public.tableau.com/views/Group3FinalProjectDraft/RunningBackvsDefensiveLinemenStats?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+# [Tableau Dashboard Link](https://public.tableau.com/app/profile/c.pilot875/viz/Group3FinalProjectDraft/Dashboard1?publish=yes)
 
 The purpose of this project is to analyze data from the NFL Combine dataset using tools to identify correlations between performance datapoints and to predict if a football player who attends the NFL Combine will be drafted or undrafted with 75% accuracy.
 
