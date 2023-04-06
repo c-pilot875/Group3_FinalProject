@@ -4,7 +4,7 @@
 ## Selected Topic – NFL Combine Performance (2009-2019)
 
 ### Links
-# [Google Slides Draft Presentation](https://docs.google.com/presentation/d/1bHN3MyXMYsiwbRi6HGW2KUMyx565eJ8_NZdsxkAlCpQ/edit?usp=sharing)
+# [Google Slides Presentation](https://docs.google.com/presentation/d/1bHN3MyXMYsiwbRi6HGW2KUMyx565eJ8_NZdsxkAlCpQ/edit?usp=sharing)
 
 The purpose of this project is to analyze data from the NFL Combine dataset using tools to identify correlations between performance datapoints and to predict if a football player who attends the NFL Combine will be drafted or undrafted with 75% accuracy.
 
@@ -193,7 +193,7 @@ Using the data visualizatin tool `Tablau Public`, the `NFL_Clean_Up.csv` file wa
 * A pie chart was generated from the `Drafted Player Type (Offense vs Defense)` to determine percentage of each represented at the Combine. Offensive players were most represented with 50.40% while Defensive players made up 48%. Special players made up only 1.6%
 * The vertical bar chart shows a comparison of the `Power Five Conferences Drafted vs Undrafted` player pick count and percentage. Hovering over each bar will indicate the specific data points for each Power Conference. The results showed that the SEC had more drafted players at 490 while the Big 12 had the least at 207.
 
-![Tablea Dashboard](Dashboard_images/Dashboard_final.png)
+![Tableau Dashboard](Dashboard_images/Dashboard_final.png)
 
 
 
