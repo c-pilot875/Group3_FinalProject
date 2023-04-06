@@ -195,17 +195,21 @@ Using the data visualizatin tool Tableau Public Stories, the NFL Draft dataframe
 9. Summary [Conclusion, Team Credits]
 
 ## Analytic Dashboard Using Tableau Public
-Using the data visualizatin tool Tablau Public, the NFL_Clean_Up.csv file will be uploaded for dashbaord creation. [update] User Interactive charts within Tableau. A single dashboard will combine all charts with an interactivty component. Any additional images relevent to exploritory findinds, database tables, and machine models will be added to the presentation slides unless there is a way to add those images to the dashboard.
+Using the data visualizatin tool `Tablau Public`, the `NFL_Clean_Up.csv` file was uploaded for dashbaord creation. A single dashboard was generated with three distinct charts containing visual camparions of `Position Type` and `Player Type` performance statistics, Offence vs. Defence position representation, and the Power 5 Conference representation count.
 
-### Charts
-* What position type or player type is most represented at the NFL Combine? [Pie chart visualization of DF]
-* What are the average stats of offence vs defence? [Stacked bar chart of DF]
-* What relationships do the Clusters containe from the Machine Learning model? [Cluster of DF]
+### Initial Secondary Questions
+* What position type or player type is most represented at the NFL Combine?
+* What are the average performance statistics of the different position types?
 
-### Tableau Dashboard
-Trial Dashboard findings
-* Player and Position type seem to display the most complete charts, however the differences in values are minimal. Will try to activate the filter function for Undrafted and Drafted dimensions as the main UI.
-* Still researching how to display a cluster chart from the machine model
+## Visualization Dashboard
 
-<img width="851" alt="Screen Shot 2023-03-28 at 3 44 50 PM" src="https://user-images.githubusercontent.com/115188500/228394551-02dc77b7-093b-47a4-91e0-69854eeb666b.png">
+## [Tableau Dashboard Link](https://public.tableau.com/views/Group3FinalProjectDraft/RunningBackvsDefensiveLinemenStats?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+### Findings
+* Using datapoints for `Position Type` and average points of measure `(Bench Press, Agility cone, Sprint 40yd, Shuttle)` an interactive filter to select `Position type` was added to display comparisons on performance statics. Drafted and Undrafted positions were separated by column. The most notable differences appeared in the average `Bench Press` suggesting strength plays an important factor on chances of being drafted.
+* A pie chart was generated from the `Drafted Player Type (Offense vs Defense)` to determine percentage of each represented at the Combine. Offensive players were most represented with 50.40% while Defensive players made up 48%. Special players made up only 1.6%
+* The vertical bar chart shows a comparison of the `Power Five Conferences Drafted vs Undrafted` player pick count and percentage. Hovering over each bar will indicate the specific data points for each Power Conference. The results showed that the SEC had more drafted players at 490 while the Big 12 had the least at 207.
+
+![Tableau Dashboard](Dashboard_images/Dashboard_final.png)
+
 
